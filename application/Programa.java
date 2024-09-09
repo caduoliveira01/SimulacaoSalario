@@ -26,6 +26,8 @@ public class Programa {
         double percentage=sc.nextDouble();
         salario.increaseSalary(percentage);
 
+        System.out.println("Update data:"+salario);
+
         sc.close();
     }
 }

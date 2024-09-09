@@ -8,8 +8,8 @@ public class Salario{
         return salary-taxa;
     }
 
-    public void double increaseSalary(double percentage){
-        (salary+taxa)*(percentage/100);
+    public void increaseSalary(double percentage){
+        salary+=salary*(percentage/100);
     }
 
     public String toString(){
